@@ -1,0 +1,34 @@
+{
+  "name": "atom-force",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "atom-force:toggle"
+  },
+  "repository": "https://github.com/atom/atom-force",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jsforce": "^1.6.0",
+    "nforce": "^1.4.0",
+    "nforce-metadata": "^1.0.7",
+    "nforce-tooling": "0.0.5",
+    "simple-node-logger": "^0.93.11"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "winston": "^2.2.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
