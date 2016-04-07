@@ -1,9 +1,14 @@
 {
   "name": "atom-force",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lightweight Salesforce.com plugin",
-  "keywords": ["salesforce", "apex", "force.com", "visualforce"],
+  "keywords": [
+    "salesforce",
+    "apex",
+    "force.com",
+    "visualforce"
+  ],
   "activationCommands": {
     "atom-workspace": "atom-force:toggle"
   },
