@@ -2,13 +2,13 @@
   "name": "atom-force",
   "main": "./lib/main",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "description": "Lightweight Salesforce.com plugin",
+  "keywords": ["salesforce", "apex", "force.com", "visualforce"],
   "activationCommands": {
     "atom-workspace": "atom-force:toggle"
   },
-  "repository": "https://github.com/atom/atom-force",
-  "license": "MIT",
+  "repository": "https://github.com/mikegedelman/atom-force",
+  "license": "GPL",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
@@ -21,8 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^2.4.0",
-    "eslint-config-airbnb": "^6.2.0",
-    "winston": "^2.2.0"
+    "eslint-config-airbnb": "^6.2.0"
   },
   "providedServices": {
     "linter": {
