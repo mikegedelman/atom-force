@@ -13,7 +13,9 @@ Other goals:
 
 ## Install
 
-Currently install is manual; clone this repository and put it in (or symlink it to) your atom packges directory (usually `$HOME/.atom/packages`). Working on getting it in apm.
+`File > Settings` or `ctrl-,`, then `Install`, then search for `atom-force`.
+
+Via apm: `apm install atom-force`
 
 ## Setup
 
@@ -61,4 +63,4 @@ Inspiration has been and will be taken from [vim-force](https://github.com/neowi
 
 ## License
 
-This repo is licensed under the [GPLv2](https://github.com/mikegedelman/atom-force/blob/master/LICENSE).
+This project is licensed under the [GPLv2](https://github.com/mikegedelman/atom-force/blob/master/LICENSE).
