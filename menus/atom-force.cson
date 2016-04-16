@@ -16,6 +16,10 @@
           'label': 'Activate'
           'command': 'atom-force:toggle'
         }
+        {
+          'label': 'Add/Change Force.com Nature'
+          'command': 'atom-force:addForceNature'
+        }
       ]
     ]
   }

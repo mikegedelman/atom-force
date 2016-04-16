@@ -23,6 +23,8 @@ Do `Packages > atom-force > activate` after opening up your SF project directory
 
 Note: this is a big difference from how other IDEs work. This way your username/password is never stored in plain text. If your machine is ever compromised, you can de-authorize atom-force tokens via Salesforce UI and you will still be protected.
 
+You can now add other orgs, which you can then deploy to via metadata API: `Packages > atom-force > Add org`.
+
 Currently atom-force cannot download your org's metadata - the assumption is that you already have a git repository set up with your code in it. This functionality is on the roadmap. For now, use another IDE or use ant or solenopsis.
 
 ## Usage
@@ -38,13 +40,13 @@ This project is in active development, and is by no means stable. Please log iss
 
 ## Roadmap
 In order of priority:
-* Allow developer (production) orgs.
-* Ability to diff files or folders with version on the server via an atom package (TBD) or diff program of your choice.
-* Extend linting functionality to catch syntax errors as you type, before attempting to save to the server.
-* Add and remember deployment targets using oauth flow.
-* Deploy to target via Tooling API. (Sandbox/Developer only)
-* Deploy to target via Metadata API.
+* ~~Allow developer (production) orgs.~~
+* ~~Deploy to target via Metadata API.~~
+* ~~Add and remember deployment targets using oauth flow.~~
 * Pull all files from server / initialize new project.
+* Extend linting functionality to catch syntax errors as you type, before attempting to save to the server.
+* Ability to diff files or folders with version on the server via an atom package (TBD) or diff program of your choice.
+* Deploy to target via Tooling API. (Sandbox/Developer only)
 
 If you think one of these should be higher, please consider submitting a pull request!
 
