@@ -18,10 +18,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "archiver": "^1.0.0",
     "atom-space-pen-views": "^2.2.0",
-    "fs-promise": "^0.5.0",
-    "jsforce": "^1.6.0",
-    "jszip": "^3.0.0",
     "nforce": "^1.4.0",
     "nforce-metadata": "^1.0.7",
     "nforce-tooling": "0.0.5",
@@ -31,10 +29,10 @@
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.2.0"
   },
-  "providedServices": {
-    "linter": {
+  "consumedServices": {
+    "linter-indie": {
       "versions": {
-        "1.0.0": "provideLinter"
+        "1.0.0": "consumeLinter"
       }
     }
   }
