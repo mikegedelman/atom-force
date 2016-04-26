@@ -31,13 +31,6 @@ Currently atom-force cannot download your org's metadata - the assumption is tha
 
 Simply save any file whose extension matches `(cls|trigger|page|resource)` and atom-force will automatically save to your Salesforce environment. Any errors will be linted using linter. (Future: allow auto-save to be turned off, allowing the user to keybind to the save command).
 
-## Known Issues
-
-This project is in active development, and is by no means stable. Please log issues as you feel necessary with bugs or ideas.
-
-* Save blows up multiple tabs open. One tab at a time for now.
-* Activating on a new project assumes you're in a sandbox environment and doesn't give you the option to specify otherwise - this is the next item on the roadmap.
-
 ## Roadmap
 In order of priority:
 * ~~Allow developer (production) orgs.~~
@@ -47,6 +40,7 @@ In order of priority:
 * Extend linting functionality to catch syntax errors as you type, before attempting to save to the server.
 * Ability to diff files or folders with version on the server via an atom package (TBD) or diff program of your choice.
 * Deploy to target via Tooling API. (Sandbox/Developer only)
+* Ability to configure/customize current functionality, custom keybinds
 
 If you think one of these should be higher, please consider submitting a pull request!
 
