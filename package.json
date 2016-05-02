@@ -1,7 +1,7 @@
 {
   "name": "atom-force",
   "main": "./lib/main",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Lightweight Salesforce.com plugin",
   "keywords": [
     "salesforce",
