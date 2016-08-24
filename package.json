@@ -28,7 +28,8 @@
     "atom-package-dependencies": "latest"
   },
   "package-dependencies": {
-    "linter": "1.0.0"
+    "linter": "1.0.0",
+    "busy-signal": "1.0.0"
   },
   "devDependencies": {
     "eslint": "^2.4.0",
@@ -38,6 +39,11 @@
     "linter-indie": {
       "versions": {
         "1.0.0": "consumeLinter"
+      }
+    },
+    "busy-signal": {
+      "versions": {
+        "^1.0.0": "consumeSignal"
       }
     }
   }
