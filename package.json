@@ -23,7 +23,7 @@
     "co": "^4.6.0",
     "nforce": "^1.4.0",
     "nforce-metadata": "^1.0.7",
-    "nforce-tooling": "jeffdonthemic/nforce-tooling#master",
+    "nforce-tooling": "github:jeffdonthemic/nforce-tooling#master",
     "xml": "^1.0.1",
     "atom-package-dependencies": "latest"
   },
