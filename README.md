@@ -1,15 +1,10 @@
 # atom-force
 
+### This repository is no longer maintained
+
+If you submit reasonable PRs, I will gladly merge them.
+
 Lightweight [atom.io](https://github.com/atom/atom) Salesforce development plugin.
-
-Primary goal is seamless atom.io integration. Utilize the growing atom.io ecosystem of packages and play to its strengths as an editor as much as possible. For example, compile error messages are linted in code using [linter](https://github.com/steelbrain/linter). And no, you do not have to have a separate app or server running to use it!
-
-Other goals:
-* Minimal configuration to set up and start working, while not sacrificing configurability.
- * Example: most IDEs require you to create a new folder and download code from your target org to set up a project. This can be a major headache when working with git - you already have the code ready, you just need to save stuff. atom-force will work immediately with an existing folder, requiring you to log in only once and do zero setup.
-* Focus on development tools that matter most, such as ability to diff with server and other orgs. No Salesforce IDE I know of gets this right currently - please correct me if I'm wrong.
-* Flexibility: play nicely with other plugins, IDEs, etc.
- * Example: atom doesn't care how your folder structure is setup - as long as your files are named like expected (ex: `MyClass.cls`) then it can figure out what you're trying to save to.
 
 ## Install
 
@@ -36,13 +31,7 @@ In order of priority:
 * ~~Allow developer (production) orgs.~~
 * ~~Deploy to target via Metadata API.~~
 * ~~Add and remember deployment targets using oauth flow.~~
-* Pull all files from server / initialize new project.
-* Extend linting functionality to catch syntax errors as you type, before attempting to save to the server.
-* Ability to diff files or folders with version on the server via an atom package (TBD) or diff program of your choice.
-* Deploy to target via Tooling API. (Sandbox/Developer only)
-* Ability to configure/customize current functionality, custom keybinds
 
-If you think one of these should be higher, please consider submitting a pull request!
 
 ## Development notes
 Code uses [ES6](https://github.com/lukehoban/es6features) and follows [airbnb style](https://github.com/airbnb/javascript). I recommend installing [linter-eslint](https://atom.io/packages/linter-eslint) to atom while working on this package to help keep style consistent.
